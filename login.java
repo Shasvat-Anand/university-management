@@ -14,7 +14,7 @@ public class login extends JFrame  implements ActionListener{
     JButton login,back;
     
     login(){
-        JLabel username= new JLabel("Username");
+        JLabel username= new JLabel("Usernam");
         username.setBounds(40 ,40 ,100 ,20);
         add(username);
 
