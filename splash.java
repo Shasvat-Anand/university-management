@@ -17,7 +17,7 @@ public class splash extends JFrame implements Runnable{
         int x=1;
         for (int i=2;i<=600;i+=4,x+=1){
             setLocation( 600 -((i +x)/2),350 -(i/2));
-            setSize( i+3*x , i+x/2);
+            setSize( i+3*x , i+x/2); 
 
 
             try {
